@@ -23,7 +23,7 @@
 
 2. Запустите скрипт с теми же аргументами командной строки, что и раньше:
    ```
-   python script.py --target_platform rk3588 --rkllm_model_path /path/to/your/model
+   python rkllmserver.py --target_platform rk3588 --rkllm_model_path /path/to/your/model
    ```
 
 3. Теперь вы можете отправлять запросы к `/v1/chat/completions` в формате, совместимом с OpenAI API.
